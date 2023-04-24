@@ -1,0 +1,9464 @@
+{
+  "pandoc-api-version": [
+    1,
+    23
+  ],
+  "meta": {},
+  "blocks": [
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "norg-tutorial",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Norg"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Tutorial"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "*This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "page"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "generated"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "from"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "./norg_tutorial.norg"
+                ]
+              }
+            ],
+            [
+              "./norg_tutorial.norg",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "useful-videos",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Useful"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Videos"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "From"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "No"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "Org"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "to"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "Neorg"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "-"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "Playlist"
+                    }
+                  ],
+                  [
+                    "https://www.youtube.com/watch%3fv=NnmRVY22Lq8&list=PLx2ksyallYzVI8CN1JMXhEf62j2AijeDa",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "From"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "No"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Org"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "to"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Neorg"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "-"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "The"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Basics"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "|"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "#1"
+                          }
+                        ],
+                        [
+                          "https://youtu.be/NnmRVY22Lq8",
+                          ""
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "From"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "No"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Org"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "to"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Neorg"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "-"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Workflow,"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Links"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "|"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "#2"
+                          }
+                        ],
+                        [
+                          "https://youtu.be/Bi9JiW5nSig",
+                          ""
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "highly"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "recommend"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "watch"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "these"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "videos"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "by"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "Vhyrro"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ","
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "author"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Neorg"
+              }
+            ],
+            [
+              "https://github.com/nvim-neorg/neorg/",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugin."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "how-to-get-started",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "How"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "to"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Get"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Started"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "current"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "implementations"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "format"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "mostly"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "done"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Neorg"
+              }
+            ],
+            [
+              "https://github.com/nvim-neorg/neorg/",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugin."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "installation-guide",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Installation"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Guide"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "TL;DR."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Read"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "section."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Installation"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "/"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Quickstart"
+              }
+            ],
+            [
+              "https://github.com/nvim-neorg/neorg/%23-installationquickstart",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "I’d"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "recommend"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "following"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "Treesitter"
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "section"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "as"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "well"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "install"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "tree-sitter-norg"
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "spec."
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "run = \":Neorg sync-parsers\","
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Strong",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "Mac"
+                  },
+                  {
+                    "t": "Space"
+                  },
+                  {
+                    "t": "Str",
+                    "c": "Users"
+                  }
+                ]
+              },
+              {
+                "t": "Str",
+                "c": ":"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "ensure"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "that"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "the"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "CC"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "environment"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "variable"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "points"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "a"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "compiler"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "that"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "has"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "C++14"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "support."
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Details"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "written"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "in"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "github"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "README."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "Issue"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "and"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "How"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "to"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "solve"
+                          }
+                        ],
+                        [
+                          "https://github.com/nvim-neorg/tree-sitter-norg/issues/7%23issuecomment-1291508121",
+                          ""
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "kickstart-config",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Kickstart"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Config"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Here"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "my"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "basic"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "config."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "I’ll"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "explain"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "about"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "plugins"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Plugins"
+              }
+            ],
+            [
+              "#plugins",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "CodeBlock",
+      "c": [
+        [
+          "",
+          [
+            "lua"
+          ],
+          []
+        ],
+        "-- lazy.nvim spec\nlocal M = {\n  \"nvim-neorg/neorg\",\n  ft = \"norg\",\n  dependencies = {\n    \"nvim-treesitter/nvim-treesitter\",\n    \"nvim-treesitter/nvim-treesitter-textobjects\",\n    \"nvim-cmp\",\n    \"nvim-lua/plenary.nvim\",\n  },\n  build = \":Neorg sync-parsers\",\n  cmd = \"Neorg\",\n}\nlocal plugins = {\n  [\"core.defaults\"] = {},\n  [\"core.completion\"] = { config = { engine = \"nvim-cmp\", name = \"[Norg]\" } },\n  [\"core.integrations.nvim-cmp\"] = {},\n  [\"core.concealer\"] = { config = { icon_preset = \"diamond\" } },\n  [\"core.export\"] = {},\n  [\"core.keybinds\"] = {\n    -- https://github.com/nvim-neorg/neorg/blob/main/lua/neorg/modules/core/keybinds/keybinds.lua\n    config = {\n      default_keybinds = true,\n      neorg_leader = \"<Leader><Leader>\",\n    },\n  },\n}\nM.opts = {\n  load = plugins,\n}\nreturn M"
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "how-to-write-your-notes",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "How"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "to"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Write"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Your"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Notes"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "basics-of-plugins",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Basics"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "of"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Plugins"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "There"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "config"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "option"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "config.load = {}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "define"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugins"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "want"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "use."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "RawInline",
+          "c": [
+            "html",
+            "<sub>"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "decomposed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "into"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "local"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "var"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "plugins"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "above"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "code"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "simplicity"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tho."
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "html",
+            "</sub>"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "More"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "information"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "about"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugins"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Plugins"
+              }
+            ],
+            [
+              "#plugins",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "section."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "I’d"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "recommend"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "just"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "simply"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "adding"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ones"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "already"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "stated"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Kickstart"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Config"
+              }
+            ],
+            [
+              "#kickstart-config",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "how-to-write-notes",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "How"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "to"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Write"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Notes"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Below"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "sample"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "note"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "which"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "explains"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "about"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "norg"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "syntax."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Run"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            ":Neorg toggle-concealer"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "see"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "raw"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "heading-1-structural-detached-modifiers",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Heading"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "1:"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Link",
+            "c": [
+              [
+                "",
+                [],
+                []
+              ],
+              [
+                {
+                  "t": "Str",
+                  "c": "Structural"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "Detached"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "Modifiers"
+                }
+              ],
+              [
+                "1.0-specification.md#structural-detached-modifiers",
+                ""
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Normal"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "here."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "Single"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "new"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "line"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "will"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ignored."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Double"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "new"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "lines"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "mean"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "new"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "paragraph."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "heading-2",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Heading"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "2"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Indentation"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "normal"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "advised"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "align"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "start"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "heading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "name."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "See?"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "The"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "indentation"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "different"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "from"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ones"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Heading"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "1"
+              }
+            ],
+            [
+              "#heading-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Oh,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "BTW"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that’s"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "how"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "create"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in-document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "links."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Literal"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "heading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "name"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "wrapped"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "{}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "Press"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "<Enter>"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "on"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "link"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "jump"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "definition."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "(case,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "space"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "in"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "-sensitive,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "punctuation"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "sensitive"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ")."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "More"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "about"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "links"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "links"
+              }
+            ],
+            [
+              "#links",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "With"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "---"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ","
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "decrease"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "heading"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "level."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "text"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "inside"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Heading"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "1"
+              }
+            ],
+            [
+              "#heading-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "again."
+        }
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Bullet"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "List:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "Unordered"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "Lists"
+                    }
+                  ],
+                  [
+                    "1.0-specification.md#unordered-lists",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Second"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "level"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "bullet"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "is"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "with"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "--"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "and"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "not"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "an"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "indented"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "-"
+                      ]
+                    },
+                    {
+                      "t": "Str",
+                      "c": "."
+                    }
+                  ]
+                },
+                {
+                  "t": "BulletList",
+                  "c": [
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Third"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "level"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Second"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "level"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "In"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "insert"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "mode,"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "press"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "<M-CR>"
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "create"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "a"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "new"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "bullet."
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Press"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "<C-t>"
+                      ]
+                    },
+                    {
+                      "t": "Str",
+                      "c": ","
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "<C-d>"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "to"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "increase,"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "decrease"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "the"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "level."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "More"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "info"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "can"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "be"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "found"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "Wiki"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "-"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Indent"
+                          }
+                        ],
+                        [
+                          "https://github.com/nvim-neorg/neorg/wiki/Indent",
+                          ""
+                        ]
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "or"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "Raw"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "code"
+                          }
+                        ],
+                        [
+                          "https://github.com/nvim-neorg/neorg/blob/main/lua/neorg/modules/core/keybinds/keybinds.lua",
+                          ""
+                        ]
+                      ]
+                    },
+                    {
+                      "t": "Str",
+                      "c": "."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Numbered"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "List:"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Link",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    [
+                      {
+                        "t": "Str",
+                        "c": "Ordered"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "Lists"
+                      }
+                    ],
+                    [
+                      "1.0-specification.md#ordered-lists",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "OrderedList",
+              "c": [
+                [
+                  1,
+                  {
+                    "t": "Decimal"
+                  },
+                  {
+                    "t": "Period"
+                  }
+                ],
+                [
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "It’s"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Code",
+                          "c": [
+                            [
+                              "",
+                              [],
+                              []
+                            ],
+                            "~"
+                          ]
+                        },
+                        {
+                          "t": "Str",
+                          "c": ","
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "not"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Code",
+                          "c": [
+                            [
+                              "",
+                              [],
+                              []
+                            ],
+                            "1."
+                          ]
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "(Tho"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "the"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "conceal"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "makes"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "it"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "look"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "like"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "that)"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            },
+            {
+              "t": "BulletList",
+              "c": [
+                [
+                  {
+                    "t": "Plain",
+                    "c": [
+                      {
+                        "t": "Str",
+                        "c": "Can"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "be"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "mixed"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "with"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "bullets"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "as"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "well."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Second"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Quotes"
+              }
+            ],
+            [
+              "1.0-specification.md#quotes",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": ">"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Quotes"
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": ">>"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Quote"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "level"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "2"
+        }
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "You"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "can"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "use"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "TODO"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "lists"
+                    }
+                  ],
+                  [
+                    "1.0-specification.md#todo-status-extension",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "in"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "combination"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "with"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "these"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "lists."
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "I"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "highly"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "suggest"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "reading"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "this"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "section"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "as"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "well."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "links-link-location",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Links:"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Link",
+            "c": [
+              [
+                "",
+                [],
+                []
+              ],
+              [
+                {
+                  "t": "Str",
+                  "c": "Link"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "Location"
+                }
+              ],
+              [
+                "1.0-specification.md#link-location",
+                ""
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "There"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "so"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "so"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "many"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "types"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "useful"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "links"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "norg"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "You"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "also"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "press"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "<Enter>"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "on"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "all"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "links"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "open"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "appropriate"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "application."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "(e.g. urls"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "opened"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "browser.)"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Again,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "Vhyrro"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "does"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "great"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "job"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "explaining"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "about"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "links"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "his"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "video,"
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "From"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "No"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Org"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "to"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Neorg"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "#2:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "17:44~"
+              }
+            ],
+            [
+              "https://youtu.be/Bi9JiW5nSig%3ft=17m44s",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "so"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "go"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ahead"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "watch"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "that"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "video."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "links-tldr",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Links"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "TL;DR"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "URL:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "{https://xxx.example.com}"
+                ]
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "URL"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "with"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "name:"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "Neorg"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "GitHub"
+                          }
+                        ],
+                        [
+                          "https://github.com/nvim-neorg/neorg/",
+                          ""
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Norg"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "files"
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Relative"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "to"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "current"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "file:"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "{:foo/bar:}"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "->"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "foo/bar.norg"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Absolute"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "path:"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "{:/tmp/foo/bar:}"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "->"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "/tmp/foo/bar.norg"
+                      ]
+                    },
+                    {
+                      "t": "Str",
+                      "c": "."
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "(Also"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "works"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "with"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "~"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "="
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "$HOME"
+                      ]
+                    },
+                    {
+                      "t": "Str",
+                      "c": ")"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Relative"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "to"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "current"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "workspace:"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "{:$/foo/bar:}"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "->"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "~/Norg/Notes/foo/bar.norg"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Relative"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "to"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "different"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "workspace:"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "{:$work/foo/bar:}"
+                      ]
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "->"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Code",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        "~/Norg/work/foo/bar.norg"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Usual"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "files:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "{/ /path/to/file}"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Headings:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "Heading"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "1"
+                    }
+                  ],
+                  [
+                    "#heading-1",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "t": "BulletList",
+            "c": [
+              [
+                {
+                  "t": "Plain",
+                  "c": [
+                    {
+                      "t": "Str",
+                      "c": "Any"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "level"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "heading:"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Link",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          []
+                        ],
+                        [
+                          {
+                            "t": "Str",
+                            "c": "Heading"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "2"
+                          }
+                        ],
+                        [
+                          "#heading-2",
+                          ""
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "AND"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "YOU"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "CAN"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "COMBINE"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "THEM"
+            }
+          ]
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "-"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "Heading 1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "foo/bar.norg"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ":"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Heading"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "1"
+              }
+            ],
+            [
+              "foo/bar.md#heading-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "-"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Line"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "numbers:"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "4"
+              }
+            ],
+            [
+              "foo/bar.md#4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "attached-modifiers",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Attached"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Modifiers"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "*bold*:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Strong",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "/italic/:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Emph",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "italic"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "_underline_:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "<u>"
+                ]
+              },
+              {
+                "t": "Str",
+                "c": "underline"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "</u>"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "-strike-through-:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Strikeout",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "strike-through"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "!spoiler!:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "|spoiler|"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "^superscript^:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "<sup>"
+                ]
+              },
+              {
+                "t": "Str",
+                "c": "superscript"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "</sup>"
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(cannot"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "be"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "nested"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "into"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "subscript"
+                ]
+              },
+              {
+                "t": "Str",
+                "c": ")"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": ",subscript,:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "<sub>"
+                ]
+              },
+              {
+                "t": "Str",
+                "c": "subscript"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "</sub>"
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(cannot"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "be"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "nested"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "into"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "superscript"
+                ]
+              },
+              {
+                "t": "Str",
+                "c": ")"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "`inline"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "code`:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Code",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  "inline code"
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(disables"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "any"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "nested"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "markup"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "-"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "verbatim)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "%"
+              },
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "null"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "modifier"
+                    }
+                  ],
+                  [
+                    "#null-modifier",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "t": "Str",
+                "c": "%:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "RawInline",
+                "c": [
+                  "html",
+                  "<!-- null modifier -->"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "$inline"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "math$:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "f(x)"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "="
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "y"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(verbatim)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "&variable&:"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "variable"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "(verbatim)"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "export",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Export"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "You"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "convert"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "your"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "notes"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "different"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "formats."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            ":Neorg export to-file foo.md"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "->"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Exports"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "foo.md"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "markdown"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "format."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "function"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "export"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "suffix"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "same"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "dir"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "name"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "current"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "file."
+        }
+      ]
+    },
+    {
+      "t": "CodeBlock",
+      "c": [
+        [
+          "",
+          [
+            "lua"
+          ],
+          []
+        ],
+        "local export_file = function(suffix, open_preview)\n  local dst = vim.fn.fnamemodify(vim.fn.expand(\"%\"), \":~:.:r\") .. suffix -- same name but with suffix\n  vim.cmd(string.format([[Neorg export to-file %s]], string.gsub(dst, \" \", [[\\ ]])))\n  vim.schedule(function()\n    vim.cmd.edit(dst)\n    if suffix == \".md\" and open_preview then\n      vim.cmd([[MarkdownPreview]]) -- https://github.com/iamcco/markdown-preview.nvim\n    end\n  end)\nend\n-- export_file(\".md\", true)"
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "plugins",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Plugins"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Keys"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "passed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "config.load"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "name"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugins."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Their"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "documents"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "found"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Neorg"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "-"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Wiki"
+              }
+            ],
+            [
+              "https://github.com/nvim-neorg/neorg/wiki",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "->"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Pages."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "already"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "mentioned"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "necessary"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ones"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Kickstart"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Config"
+              }
+            ],
+            [
+              "#kickstart-config",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ","
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "but"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "here"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "ones"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "personally"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "use"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "on"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "top"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "them."
+        }
+      ]
+    },
+    {
+      "t": "CodeBlock",
+      "c": [
+        [
+          "",
+          [
+            "lua"
+          ],
+          []
+        ],
+        "local plugins = {\n  ... -- ones mentioned in {** Kickstart Config}\n  [\"core.esupports.metagen\"] = { config = { type = \"auto\", update_date = true } },\n  [\"core.qol.toc\"] = {},\n  [\"core.qol.todo_items\"] = {},\n  [\"core.looking-glass\"] = {},\n  [\"core.presenter\"] = { config = { zen_mode = \"zen-mode\" } },\n  [\"core.journal\"] = {\n    config = {\n      strategy = \"flat\",\n      workspace = \"Notes\",\n    },\n  },\n  [\"core.dirman\"] = {\n    config = {\n      workspaces = {\n        Notes = \"~/Nextcloud/Notes\",\n        Work = \"~/Nextcloud/Work\",\n      }\n    }\n  },\n}"
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "notes",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Notes"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "core.dirman",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Code",
+            "c": [
+              [
+                "",
+                [],
+                []
+              ],
+              "core.dirman"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugin"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "very"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "recommended."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "It"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "manages"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "what"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "called"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "workspaces"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "You"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "define"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "multiple"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "workspaces"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "at"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "config[\"core.dirman\"].config.workspaces"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ","
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "open"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "command"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            ":Neorg workspace <name-of-workspace>"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "command"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "opens"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "/path/to/workspace/index.norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "which"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "like"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "entry"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "point"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "file."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Norg"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "inside"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "workspace"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "linked"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "{:$<name-of-workspace>/path/to/file:}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "So"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "example,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "inside"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "workspace"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "Notes = \"~/Nextcloud/Notes"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ","
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "~/Nextcloud/Notes/journal/2023-04-16.norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "would"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "{:$Notes/journal/2023-04-16:}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "Or,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "it"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "abbreviated"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "$/"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "when"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "referring"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "from"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "same"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "workspace."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "core.journal",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Code",
+            "c": [
+              [
+                "",
+                [],
+                []
+              ],
+              "core.journal"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "This"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "adds"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "commands"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            ":Neorg journal {today,tomorrow,yesterday}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": ","
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "which"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "opens"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "norg"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "file"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "appropriate"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "date"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "as"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "name."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Great"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "diary"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": ":)"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "core.keybinds",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Code",
+            "c": [
+              [
+                "",
+                [],
+                []
+              ],
+              "core.keybinds"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "To"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "register"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "file"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "specific"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "keybinds,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "read"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "page:"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Neorg"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "-"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Wiki"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "-"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "User-Keybinds"
+              }
+            ],
+            [
+              "https://github.com/nvim-neorg/neorg/wiki/User-Keybinds",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "your-own-module",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Your"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Own"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Module"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "If"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "want"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "create"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "your"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "own"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "plugin"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "neorg,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "video"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "is"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "very"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "useful."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "YouTube"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "-"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Neorg"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Custom"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "Modules"
+              }
+            ],
+            [
+              "https://www.youtube.com/watch%3fv=j4lTvIGRhmw&list=PLxpY86LRR3B0rtOBjXAsq1XnsOt4m4owu",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Here’s"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "one"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "external"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "module"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "implemented."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "https://github.com/pysan3/neorg-templates-draft"
+              }
+            ],
+            [
+              "https://github.com/pysan3/neorg-templates-draft",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "which"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "adds"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "support"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "for"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "template"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "power"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "LuaSnip"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Feel"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "free"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "explorer"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "code."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "tips",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Tips"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "embed-images",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Embed"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Images"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "As"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "far"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "as"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "know,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "there"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "NO"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "specifications"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "about"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "how"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "embed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "/"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "link"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "an"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "image."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "discussions",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Discussions"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "Is"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "there"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "any"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "way"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "to"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "insert"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "a"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "image"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "just"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "like"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "kitty"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "icat"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "does"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "#768"
+                    }
+                  ],
+                  [
+                    "https://github.com/nvim-neorg/neorg/discussions/768",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "render.nvim"
+                    },
+                    {
+                      "t": "Space"
+                    },
+                    {
+                      "t": "Str",
+                      "c": "#791"
+                    }
+                  ],
+                  [
+                    "https://github.com/nvim-neorg/neorg/discussions/791",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "workaround",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Workaround"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "As"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "workaround,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "funny"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "enough,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "prepend"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "link"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "!"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "like"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "!{path}[name]"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "link"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "an"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "image,"
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "which"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "will"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "be"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "correctly"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "converted"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "image"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "tag"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "when"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "exported"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "markdown"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "files."
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Str",
+          "c": "(Of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "course"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "only"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "works"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "markdown"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "I"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "hope"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "this"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "will"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "not"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "become"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "correct"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "way.)"
+        }
+      ]
+    },
+    {
+      "t": "CodeBlock",
+      "c": [
+        [
+          "",
+          [
+            "norg"
+          ],
+          []
+        ],
+        "!{https://user-images.githubusercontent.com/76052559/150838408-1a021d7b-1891-4cab-b16e-6b755e741e87.png}[Norg format]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Example:"
+        },
+        {
+          "t": "SoftBreak"
+        },
+        {
+          "t": "Image",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Norg"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "format"
+              }
+            ],
+            [
+              "https://user-images.githubusercontent.com/76052559/150838408-1a021d7b-1891-4cab-b16e-6b755e741e87.png",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "sync-with-git-nextcloud-etc",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Sync"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "with"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Git,"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Nextcloud,"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "etc"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "BACKUP"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "YOUR"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "NOTES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "nextcloud-edit-on-your-phone",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Nextcloud,"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Edit"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "on"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Your"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Phone"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "If"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "use"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "selfhosted"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Nextcloud,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "you"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "can"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "edit"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "your"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "notes"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "from"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "your"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "phone."
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        4,
+        [
+          "after-logging-in",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "After"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Logging"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "In"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Install"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Link",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    [
+                      {
+                        "t": "Str",
+                        "c": "Notes"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "app"
+                      }
+                    ],
+                    [
+                      "https://apps.nextcloud.com/apps/notes",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Go"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Link",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    [
+                      {
+                        "t": "Str",
+                        "c": "https://nextcloud.your.domain/apps/notes"
+                      }
+                    ],
+                    [
+                      "https://nextcloud.your.domain/apps/notes",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Go"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "down"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Code",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    "Notes settings"
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Change"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Code",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    "File extension for new notes"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "BulletList",
+              "c": [
+                [
+                  {
+                    "t": "Plain",
+                    "c": [
+                      {
+                        "t": "Code",
+                        "c": [
+                          [
+                            "",
+                            [],
+                            []
+                          ],
+                          "User defined"
+                        ]
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "->"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Code",
+                        "c": [
+                          [
+                            "",
+                            [],
+                            []
+                          ],
+                          ".norg"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        4,
+        [
+          "on-your-phone",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "On"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Your"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Phone"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Access"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "page"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "with"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "safari."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "html",
+                    "<sub>"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "I’m"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "sorry"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "but"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "I"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "use"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "iPhone…"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "html",
+                    "</sub>"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "BulletList",
+              "c": [
+                [
+                  {
+                    "t": "Plain",
+                    "c": [
+                      {
+                        "t": "Str",
+                        "c": "Shoud"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "work"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "on"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "other"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "phones"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "as"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "well"
+                      },
+                      {
+                        "t": "Space"
+                      },
+                      {
+                        "t": "Str",
+                        "c": "tho."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Go"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Link",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    [
+                      {
+                        "t": "Str",
+                        "c": "https://nextcloud.your.domain/apps/notes"
+                      }
+                    ],
+                    [
+                      "https://nextcloud.your.domain/apps/notes",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "Press"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Code",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    "share"
+                  ]
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Code",
+                  "c": [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    "Add page to home"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "You"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "have"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "a"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "new"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "app"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "that"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "jumps"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "directly"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "to"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "notes"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        4,
+        [
+          "notes-1",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Notes"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "Might"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "not"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "work"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "if"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "you"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "have"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Link",
+                "c": [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "Text"
+                    }
+                  ],
+                  [
+                    "https://github.com/nextcloud/text",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "app"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "installed"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "other-projects",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Other"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "Projects"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "There"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "many"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "other"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "projects"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "going"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "on"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "around"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Code",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            "norg"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "format."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Find"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "them"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "here"
+              }
+            ],
+            [
+              "https://github.com/orgs/nvim-neorg/repositories",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "and"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "contribute"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "any"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "of"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "them!"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "discord",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "Discord"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "More,"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "alpha"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "stage"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "concepts"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "are"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "discussed"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "in"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "the"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "Discord"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "channel."
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Feel"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "free"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "to"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "join:"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "https://discord.gg/T6EgTAX7ht"
+              }
+            ],
+            [
+              "https://discord.gg/T6EgTAX7ht",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
