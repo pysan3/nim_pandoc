@@ -9,7 +9,7 @@ macro refObjectJsonHook*(baseType: untyped, conds: untyped): untyped =
   for rcond in conds:
     for t in rcond[0]:
       var typename = repr(t)[1 ..< ^1]
-      body.add(&"  {repr(baseType)}{typename} = {repr(rcond[1]).strip}")
+      body.add(&"  {repr(baseType)}{typename}* = {repr(rcond[1]).strip}")
   body.add("")
   body.add(&"proc toJsonHook*(self: {repr(baseType)}): JsonNode =")
   body.add("  case self.t:")
