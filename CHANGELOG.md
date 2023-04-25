@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/pysan3/nim_pandoc/compare/v1.1.0...v1.2.0) (2023-04-25)
+
+
+### Features
+
+* **macro:** define type alias for each constructor defined in macro ([f06c4b7](https://github.com/pysan3/nim_pandoc/commit/f06c4b751f4b1a474c0985732bacb5b4d5a62d02))
+
 ## [1.1.0](https://github.com/pysan3/nim_pandoc/compare/v1.0.0...v1.1.0) (2023-04-24)
 
 
