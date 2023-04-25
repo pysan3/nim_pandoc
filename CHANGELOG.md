@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/pysan3/nim_pandoc/compare/v1.2.0...v2.0.0) (2023-04-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* update nimble version to align github tags
+
+### Bug Fixes
+
+* export generated types ([0f5c639](https://github.com/pysan3/nim_pandoc/commit/0f5c639a58563f4f16fd36e389900b20f9c593f7))
+
+
+### Code Refactoring
+
+* update nimble version to align github tags ([8700714](https://github.com/pysan3/nim_pandoc/commit/8700714250f579699118f7b936ca51a115786995))
+
 ## [1.2.0](https://github.com/pysan3/nim_pandoc/compare/v1.1.0...v1.2.0) (2023-04-25)
 
 
