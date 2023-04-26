@@ -23,4 +23,10 @@ macro refObjectJsonHook*(baseType: untyped, conds: untyped): untyped =
     body.add("    of " & rcond[0].mapIt(repr(it)).join(", ") & ":")
     body.add(&"      self = jsonTo(o, {repr(rcond[1]).strip})")
   body.add("    else: discard\n")
+  body.add(&"proc `$`*(self: {repr(baseType)}): string =")
+  body.add("  case self.t:")
+  for rcond in conds:
+    body.add("    of " & rcond[0].mapIt(repr(it)).join(", ") & ":")
+    body.add(&"      result = $(toJson(cast[{repr(rcond[1]).strip}](self)))")
+  body.add("    else: discard\n")
   result = parseStmt(body.join("\n"))

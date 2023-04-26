@@ -20,7 +20,7 @@ proc add*(x, y: int): int =
   return x + y
 
 when isMainModule:
-  var jsonContent = readFile("./tests/test.json")
+  var jsonContent = readFile("./tests/norg_tutorial.json")
   # echo jsonContent
   echo "len: ", jsonContent.len()
 
@@ -88,5 +88,6 @@ when isMainModule:
   var jobj = parseJson(jsonContent)
   var blocks = jsonTo(jobj["blocks"], seq[PDBlock])
   echo "jsonTo done"
+  echo blocks
 
   echo toJson(blocks)
