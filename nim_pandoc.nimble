@@ -1,6 +1,6 @@
 # Package
 
-version = "2.1.0" # {x-release-please-version}
+version = "3.0.0" # {x-release-please-version}
 author = "pysan3"
 description = "Pandoc AST Type Definitions"
 license = "GPL-2.0-or-later"
