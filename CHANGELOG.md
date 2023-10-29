@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.0](https://github.com/pysan3/nim_pandoc/compare/v2.1.0...v3.0.0) (2023-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ci:** fix ci to use GH action from upstream
+
+### Features
+
+* **choosenim:** upgrade nim version to `v2.0.0` and refactor code ([872aa12](https://github.com/pysan3/nim_pandoc/commit/872aa12256c45993d2058285e9208383e4493b6a))
+
+
+### Bug Fixes
+
+* **ci:** fix ci to use GH action from upstream ([86f47f0](https://github.com/pysan3/nim_pandoc/commit/86f47f09ab6928307f599f00f26ff1467b38c356))
+* **ci:** fix compiled files in GH action ([6dfa736](https://github.com/pysan3/nim_pandoc/commit/6dfa736411a1738d4a4ac792fc453b291733fd88))
+
 ## [2.1.0](https://github.com/pysan3/nim_pandoc/compare/v2.0.0...v2.1.0) (2023-04-26)
 
 
