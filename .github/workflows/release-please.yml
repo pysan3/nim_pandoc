@@ -1,4 +1,8 @@
 on:
+  workflow_run:
+    workflows: ["test-and-docs"]
+    types:
+      - complete
   push:
     branches:
       - main
@@ -17,3 +21,5 @@ jobs:
         with:
           release-type: node
           package-name: release-please-action
+          extra-files: |
+            nim_pandoc.nimble

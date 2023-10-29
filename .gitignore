@@ -19,4 +19,11 @@ tags
 
 ### Nim ###
 nimcache/
-!/tests
+nimblecache/
+htmldocs/
+
+/tests/test_*
+!/tests/test_*.nim
+
+### EnvVars ###
+/.env
