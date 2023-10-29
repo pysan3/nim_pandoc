@@ -1,0 +1,29 @@
+nimTitle	pd_inline	nim_pandoc/pd_inline.html	module nim_pandoc/pd_inline		0
+nim	toJsonHook	nim_pandoc/pd_inline.html#toJsonHook,PDInlineBase0	proc toJsonHook(self: PDInlineBase0): JsonNode		15
+nim	fromJsonHook	nim_pandoc/pd_inline.html#fromJsonHook,PDInlineBase0,JsonNode	proc fromJsonHook(self: var PDInlineBase0; o: JsonNode; opt = Joptions())		17
+nim	toJsonHook	nim_pandoc/pd_inline.html#toJsonHook,PDInlineBase	proc toJsonHook(self: PDInlineBase): JsonNode		21
+nim	fromJsonHook	nim_pandoc/pd_inline.html#fromJsonHook,PDInlineBase[T],JsonNode	proc fromJsonHook[T](self: var PDInlineBase[T]; o: JsonNode; opt = Joptions())		26
+nim	PDInlineSpace	nim_pandoc/pd_inline.html#PDInlineSpace	type PDInlineSpace		2
+nim	PDInlineSoftBreak	nim_pandoc/pd_inline.html#PDInlineSoftBreak	type PDInlineSoftBreak		3
+nim	PDInlineLineBreak	nim_pandoc/pd_inline.html#PDInlineLineBreak	type PDInlineLineBreak		4
+nim	PDInlineStr	nim_pandoc/pd_inline.html#PDInlineStr	type PDInlineStr		5
+nim	PDInlineEmph	nim_pandoc/pd_inline.html#PDInlineEmph	type PDInlineEmph		6
+nim	PDInlineUnderline	nim_pandoc/pd_inline.html#PDInlineUnderline	type PDInlineUnderline		7
+nim	PDInlineStrong	nim_pandoc/pd_inline.html#PDInlineStrong	type PDInlineStrong		8
+nim	PDInlineStrikeout	nim_pandoc/pd_inline.html#PDInlineStrikeout	type PDInlineStrikeout		9
+nim	PDInlineSuperscript	nim_pandoc/pd_inline.html#PDInlineSuperscript	type PDInlineSuperscript		10
+nim	PDInlineSubscript	nim_pandoc/pd_inline.html#PDInlineSubscript	type PDInlineSubscript		11
+nim	PDInlineSmallCaps	nim_pandoc/pd_inline.html#PDInlineSmallCaps	type PDInlineSmallCaps		12
+nim	PDInlineQuoted	nim_pandoc/pd_inline.html#PDInlineQuoted	type PDInlineQuoted		13
+nim	PDInlineCite	nim_pandoc/pd_inline.html#PDInlineCite	type PDInlineCite		14
+nim	PDInlineCode	nim_pandoc/pd_inline.html#PDInlineCode	type PDInlineCode		15
+nim	PDInlineMath	nim_pandoc/pd_inline.html#PDInlineMath	type PDInlineMath		16
+nim	PDInlineRawInline	nim_pandoc/pd_inline.html#PDInlineRawInline	type PDInlineRawInline		17
+nim	PDInlineSpan	nim_pandoc/pd_inline.html#PDInlineSpan	type PDInlineSpan		18
+nim	PDInlineLink	nim_pandoc/pd_inline.html#PDInlineLink	type PDInlineLink		19
+nim	PDInlineImage	nim_pandoc/pd_inline.html#PDInlineImage	type PDInlineImage		20
+nim	toJsonHook	nim_pandoc/pd_inline.html#toJsonHook,PDInline	proc toJsonHook(self: PDInline): JsonNode		22
+nim	fromJsonHook	nim_pandoc/pd_inline.html#fromJsonHook,PDInline,JsonNode	proc fromJsonHook(self: var PDInline; o: JsonNode; opt = Joptions())		46
+nim	`$`	nim_pandoc/pd_inline.html#$,PDInline	proc `$`(self: PDInline): string		31
+nimgrp	tojsonhook	nim_pandoc/pd_inline.html#toJsonHook-procs-all	proc		15
+nimgrp	fromjsonhook	nim_pandoc/pd_inline.html#fromJsonHook-procs-all	proc		17

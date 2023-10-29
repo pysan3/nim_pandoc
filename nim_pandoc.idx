@@ -1,0 +1,92 @@
+nimTitle	nim_pandoc	nim_pandoc.html	module nim_pandoc		0
+nim	PDAttrPair	nim_pandoc.html#PDAttrPair	type PDAttrPair		4
+nim	PDAttr	nim_pandoc.html#PDAttr	type PDAttr		5
+nim	key	nim_pandoc.html#key,PDAttrPair	proc key(self: PDAttrPair): string		7
+nim	value	nim_pandoc.html#value,PDAttrPair	proc value(self: PDAttrPair): string		8
+nim	identifier	nim_pandoc.html#identifier,PDAttr	proc identifier(self: PDAttr): string		10
+nim	classes	nim_pandoc.html#classes,PDAttr	proc classes(self: PDAttr): seq[string]		11
+nim	pairs	nim_pandoc.html#pairs,PDAttr	proc pairs(self: PDAttr): seq[PDAttrPair]		12
+nim	`$`	nim_pandoc.html#$,PDAttr	proc `$`(self: PDAttr): string		14
+nim	PDInline	nim_pandoc.html#PDInline	type PDInline		10
+nim	PDInlineBase0	nim_pandoc.html#PDInlineBase0	type PDInlineBase0		12
+nim	PDInlineBase	nim_pandoc.html#PDInlineBase	type PDInlineBase		13
+nim	PDShortCaption	nim_pandoc.html#PDShortCaption	type PDShortCaption		7
+nim	PDCaption	nim_pandoc.html#PDCaption	object PDCaption		8
+nim	PDCitationMode	nim_pandoc.html#PDCitationMode	object PDCitationMode		4
+nim	PDCitation	nim_pandoc.html#PDCitation	object PDCitation		6
+nim	PDFormat	nim_pandoc.html#PDFormat	type PDFormat		2
+nim	PDListNumberStyle	nim_pandoc.html#PDListNumberStyle	object PDListNumberStyle		2
+nim	PDListNumberDelim	nim_pandoc.html#PDListNumberDelim	object PDListNumberDelim		4
+nim	PDListAttributes	nim_pandoc.html#PDListAttributes	type PDListAttributes		6
+nim	PDRowHeadColumns	nim_pandoc.html#PDRowHeadColumns	type PDRowHeadColumns		7
+nim	PDAlignment	nim_pandoc.html#PDAlignment	object PDAlignment		8
+nim	PDColWidth	nim_pandoc.html#PDColWidth	object PDColWidth		10
+nim	PDRowSpan	nim_pandoc.html#PDRowSpan	type PDRowSpan		13
+nim	PDColSpan	nim_pandoc.html#PDColSpan	type PDColSpan		14
+nim	PDCell	nim_pandoc.html#PDCell	object PDCell		15
+nim	PDColSpec	nim_pandoc.html#PDColSpec	type PDColSpec		18
+nim	PDRow	nim_pandoc.html#PDRow	object PDRow		19
+nim	PDTableHead	nim_pandoc.html#PDTableHead	object PDTableHead		22
+nim	PDTableBody	nim_pandoc.html#PDTableBody	object PDTableBody		25
+nim	PDTableFoot	nim_pandoc.html#PDTableFoot	object PDTableFoot		28
+nim	PDTarget	nim_pandoc.html#PDTarget	type PDTarget		2
+nim	url	nim_pandoc.html#url,PDTarget	proc url(self: PDTarget): string		4
+nim	title	nim_pandoc.html#title,PDTarget	proc title(self: PDTarget): string		7
+nim	PDQuoteType	nim_pandoc.html#PDQuoteType	object PDQuoteType		2
+nim	PDMathType	nim_pandoc.html#PDMathType	object PDMathType		4
+nim	toJsonHook	nim_pandoc.html#toJsonHook,PDInlineBase0	proc toJsonHook(self: PDInlineBase0): JsonNode		15
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDInlineBase0,JsonNode	proc fromJsonHook(self: var PDInlineBase0; o: JsonNode; opt = Joptions())		17
+nim	toJsonHook	nim_pandoc.html#toJsonHook,PDInlineBase	proc toJsonHook(self: PDInlineBase): JsonNode		21
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDInlineBase[T],JsonNode	proc fromJsonHook[T](self: var PDInlineBase[T]; o: JsonNode; opt = Joptions())		26
+nim	PDInlineSpace	nim_pandoc.html#PDInlineSpace	type PDInlineSpace		2
+nim	PDInlineSoftBreak	nim_pandoc.html#PDInlineSoftBreak	type PDInlineSoftBreak		3
+nim	PDInlineLineBreak	nim_pandoc.html#PDInlineLineBreak	type PDInlineLineBreak		4
+nim	PDInlineStr	nim_pandoc.html#PDInlineStr	type PDInlineStr		5
+nim	PDInlineEmph	nim_pandoc.html#PDInlineEmph	type PDInlineEmph		6
+nim	PDInlineUnderline	nim_pandoc.html#PDInlineUnderline	type PDInlineUnderline		7
+nim	PDInlineStrong	nim_pandoc.html#PDInlineStrong	type PDInlineStrong		8
+nim	PDInlineStrikeout	nim_pandoc.html#PDInlineStrikeout	type PDInlineStrikeout		9
+nim	PDInlineSuperscript	nim_pandoc.html#PDInlineSuperscript	type PDInlineSuperscript		10
+nim	PDInlineSubscript	nim_pandoc.html#PDInlineSubscript	type PDInlineSubscript		11
+nim	PDInlineSmallCaps	nim_pandoc.html#PDInlineSmallCaps	type PDInlineSmallCaps		12
+nim	PDInlineQuoted	nim_pandoc.html#PDInlineQuoted	type PDInlineQuoted		13
+nim	PDInlineCite	nim_pandoc.html#PDInlineCite	type PDInlineCite		14
+nim	PDInlineCode	nim_pandoc.html#PDInlineCode	type PDInlineCode		15
+nim	PDInlineMath	nim_pandoc.html#PDInlineMath	type PDInlineMath		16
+nim	PDInlineRawInline	nim_pandoc.html#PDInlineRawInline	type PDInlineRawInline		17
+nim	PDInlineSpan	nim_pandoc.html#PDInlineSpan	type PDInlineSpan		18
+nim	PDInlineLink	nim_pandoc.html#PDInlineLink	type PDInlineLink		19
+nim	PDInlineImage	nim_pandoc.html#PDInlineImage	type PDInlineImage		20
+nim	toJsonHook	nim_pandoc.html#toJsonHook,PDInline	proc toJsonHook(self: PDInline): JsonNode		22
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDInline,JsonNode	proc fromJsonHook(self: var PDInline; o: JsonNode; opt = Joptions())		46
+nim	`$`	nim_pandoc.html#$,PDInline	proc `$`(self: PDInline): string		31
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDCaption,JsonNode	proc fromJsonHook(self: var PDCaption; o: JsonNode; opt = Joptions())		8
+nim	PDBlock	nim_pandoc.html#PDBlock	type PDBlock		7
+nim	PDBlockBase0	nim_pandoc.html#PDBlockBase0	type PDBlockBase0		9
+nim	PDBlockBase	nim_pandoc.html#PDBlockBase	type PDBlockBase		10
+nim	toJsonHook	nim_pandoc.html#toJsonHook,PDBlockBase0	proc toJsonHook(self: PDBlockBase0): JsonNode		17
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDBlockBase0,JsonNode	proc fromJsonHook(self: var PDBlockBase0; o: JsonNode; opt = Joptions())		19
+nim	toJsonHook	nim_pandoc.html#toJsonHook,PDBlockBase	proc toJsonHook(self: PDBlockBase): JsonNode		23
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDBlockBase[T],JsonNode	proc fromJsonHook[T](self: var PDBlockBase[T]; o: JsonNode; opt = Joptions())		28
+nim	PDBlockHorizontalRule	nim_pandoc.html#PDBlockHorizontalRule	type PDBlockHorizontalRule		2
+nim	PDBlockPlain	nim_pandoc.html#PDBlockPlain	type PDBlockPlain		3
+nim	PDBlockPara	nim_pandoc.html#PDBlockPara	type PDBlockPara		4
+nim	PDBlockLineBlock	nim_pandoc.html#PDBlockLineBlock	type PDBlockLineBlock		5
+nim	PDBlockBlockQuote	nim_pandoc.html#PDBlockBlockQuote	type PDBlockBlockQuote		6
+nim	PDBlockBulletList	nim_pandoc.html#PDBlockBulletList	type PDBlockBulletList		7
+nim	PDBlockDefinitionList	nim_pandoc.html#PDBlockDefinitionList	type PDBlockDefinitionList		8
+nim	PDBlockCodeBlock	nim_pandoc.html#PDBlockCodeBlock	type PDBlockCodeBlock		9
+nim	PDBlockRawBlock	nim_pandoc.html#PDBlockRawBlock	type PDBlockRawBlock		10
+nim	PDBlockOrderedList	nim_pandoc.html#PDBlockOrderedList	type PDBlockOrderedList		11
+nim	PDBlockDiv	nim_pandoc.html#PDBlockDiv	type PDBlockDiv		12
+nim	PDBlockHeader	nim_pandoc.html#PDBlockHeader	type PDBlockHeader		13
+nim	PDBlockFigure	nim_pandoc.html#PDBlockFigure	type PDBlockFigure		14
+nim	PDBlockTable	nim_pandoc.html#PDBlockTable	type PDBlockTable		15
+nim	toJsonHook	nim_pandoc.html#toJsonHook,PDBlock	proc toJsonHook(self: PDBlock): JsonNode		18
+nim	fromJsonHook	nim_pandoc.html#fromJsonHook,PDBlock,JsonNode	proc fromJsonHook(self: var PDBlock; o: JsonNode; opt = Joptions())		49
+nim	`$`	nim_pandoc.html#$,PDBlock	proc `$`(self: PDBlock): string		33
+nim	add	nim_pandoc.html#add,int,int	proc add(x, y: int): int		19
+nimgrp	$	nim_pandoc.html#$-procs-all	proc		14
+nimgrp	tojsonhook	nim_pandoc.html#toJsonHook-procs-all	proc		15
+nimgrp	fromjsonhook	nim_pandoc.html#fromJsonHook-procs-all	proc		17
+heading	Nim Type Definitions of Pandoc AST	nim_pandoc.html#nim-type-definitions-of-pandoc-ast	 Nim Type Definitions of Pandoc AST		0
