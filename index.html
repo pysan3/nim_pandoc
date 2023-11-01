@@ -79,9 +79,7 @@
 <li><a class="reference" href="#PDBlockRawBlock" title="PDBlockRawBlock = PDBlockBase[(PDFormat, string)]">PDBlockRawBlock</a></li>
 <li><a class="reference" href="#PDBlockTable" title="PDBlockTable = PDBlockBase[(PDAttr, PDCaption, seq[PDColSpec], PDTableHead,
                             seq[PDTableBody], PDTableFoot)]">PDBlockTable</a></li>
-<li><a class="reference" href="#PDCaption" title="PDCaption = object
-  t*: string
-  c*: (Option[PDShortCaption], seq[PDBlock])">PDCaption</a></li>
+<li><a class="reference" href="#PDCaption" title="PDCaption = (Option[PDShortCaption], seq[PDBlock])">PDCaption</a></li>
 <li><a class="reference" href="#PDCell" title="PDCell = object
   t*: string
   c*: (PDAttr, PDAlignment, PDRowSpan, PDColSpan, seq[PDBlock])">PDCell</a></li>
@@ -223,7 +221,7 @@
 
   </div>
   <div class="nine columns" id="content">
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc.nim#L1" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc.nim#L1" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc.nim#L1" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
     <div id="tocRoot"></div>
@@ -235,7 +233,7 @@
     <div class="section" id="6">
   <h1><a class="toc-backref" href="#6">Imports</a></h1>
   <dl class="item">
-    <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_attr_h.html">nim_pandoc/pd_attr_h</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pandoc_macro.html">nim_pandoc/pandoc_macro</a>, <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_attr_h.html">nim_pandoc/pd_attr_h</a>, <a class="reference external" href="nim_pandoc/pd_target_h.html">nim_pandoc/pd_target_h</a>, <a class="reference external" href="nim_pandoc/pd_types_h.html">nim_pandoc/pd_types_h</a>, <a class="reference external" href="nim_pandoc/pd_citation_h.html">nim_pandoc/pd_citation_h</a>, <a class="reference external" href="nim_pandoc/pd_format_h.html">nim_pandoc/pd_format_h</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pd_caption_h.html">nim_pandoc/pd_caption_h</a>, <a class="reference external" href="nim_pandoc/pandoc_macro.html">nim_pandoc/pandoc_macro</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_attr_h.html">nim_pandoc/pd_attr_h</a>, <a class="reference external" href="nim_pandoc/pd_caption_h.html">nim_pandoc/pd_caption_h</a>, <a class="reference external" href="nim_pandoc/pd_format_h.html">nim_pandoc/pd_format_h</a>, <a class="reference external" href="nim_pandoc/pd_table_h.html">nim_pandoc/pd_table_h</a>, <a class="reference external" href="nim_pandoc/pd_list_h.html">nim_pandoc/pd_list_h</a>, <a class="reference external" href="nim_pandoc/pd_citation_h.html">nim_pandoc/pd_citation_h</a>, <a class="reference external" href="nim_pandoc/pd_inline.html">nim_pandoc/pd_inline</a>
+    <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_attr_h.html">nim_pandoc/pd_attr_h</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pandoc_macro.html">nim_pandoc/pandoc_macro</a>, <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_attr_h.html">nim_pandoc/pd_attr_h</a>, <a class="reference external" href="nim_pandoc/pd_target_h.html">nim_pandoc/pd_target_h</a>, <a class="reference external" href="nim_pandoc/pd_types_h.html">nim_pandoc/pd_types_h</a>, <a class="reference external" href="nim_pandoc/pd_citation_h.html">nim_pandoc/pd_citation_h</a>, <a class="reference external" href="nim_pandoc/pd_format_h.html">nim_pandoc/pd_format_h</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pd_caption_h.html">nim_pandoc/pd_caption_h</a>, <a class="reference external" href="nim_pandoc/pd_block.html">nim_pandoc/pd_block</a>, <a class="reference external" href="nim_pandoc/pandoc_macro.html">nim_pandoc/pandoc_macro</a>, <a class="reference external" href="nim_pandoc/pd_block_h.html">nim_pandoc/pd_block_h</a>, <a class="reference external" href="nim_pandoc/pd_inline_h.html">nim_pandoc/pd_inline_h</a>, <a class="reference external" href="nim_pandoc/pd_attr_h.html">nim_pandoc/pd_attr_h</a>, <a class="reference external" href="nim_pandoc/pd_caption_h.html">nim_pandoc/pd_caption_h</a>, <a class="reference external" href="nim_pandoc/pd_format_h.html">nim_pandoc/pd_format_h</a>, <a class="reference external" href="nim_pandoc/pd_table_h.html">nim_pandoc/pd_table_h</a>, <a class="reference external" href="nim_pandoc/pd_list_h.html">nim_pandoc/pd_list_h</a>, <a class="reference external" href="nim_pandoc/pd_citation_h.html">nim_pandoc/pd_citation_h</a>, <a class="reference external" href="nim_pandoc/pd_inline.html">nim_pandoc/pd_inline</a>
   </dl>
 </div>
 <div class="section" id="7">
@@ -248,7 +246,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L8" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -258,7 +256,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L5" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L5" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L5" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -268,7 +266,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -280,7 +278,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block_h.nim#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -292,7 +290,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block_h.nim#L10" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -302,7 +300,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block_h.nim#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block_h.nim#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block_h.nim#L9" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -312,7 +310,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L6" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -322,7 +320,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -332,7 +330,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L9" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -342,7 +340,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L8" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -352,7 +350,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L12" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -362,7 +360,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L14" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -372,7 +370,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L13" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -382,7 +380,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L2" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -392,7 +390,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L5" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L5" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L5" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -402,7 +400,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L11" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L11" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L11" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -412,7 +410,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -422,7 +420,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L3" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L3" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L3" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -432,7 +430,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L10" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -443,20 +441,17 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L15" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
 <div id="PDCaption">
-  <dt><pre><a href="nim_pandoc.html#PDCaption"><span class="Identifier">PDCaption</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">t</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">string</span>
-  <span class="Identifier">c</span><span class="Operator">*</span><span class="Other">:</span> <span class="Other">(</span><span class="Identifier">Option</span><span class="Other">[</span><a href="nim_pandoc.html#PDShortCaption"><span class="Identifier">PDShortCaption</span></a><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="nim_pandoc/pd_block_h.html#PDBlock"><span class="Identifier">PDBlock</span></a><span class="Other">]</span><span class="Other">)</span>
-</pre></dt>
+  <dt><pre><a href="nim_pandoc.html#PDCaption"><span class="Identifier">PDCaption</span></a> <span class="Other">=</span> <span class="Other">(</span><span class="Identifier">Option</span><span class="Other">[</span><a href="nim_pandoc.html#PDShortCaption"><span class="Identifier">PDShortCaption</span></a><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="nim_pandoc/pd_block_h.html#PDBlock"><span class="Identifier">PDBlock</span></a><span class="Other">]</span><span class="Other">)</span></pre></dt>
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_caption_h.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_caption_h.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_caption_h.nim#L8" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -469,7 +464,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L15" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -486,7 +481,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_citation_h.nim#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_citation_h.nim#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_citation_h.nim#L6" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -498,7 +493,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_citation_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_citation_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_citation_h.nim#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -508,7 +503,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L14" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -518,7 +513,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L18" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L18" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L18" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -531,7 +526,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L10" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -541,7 +536,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_format_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_format_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_format_h.nim#L2" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -553,7 +548,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline_h.nim#L10" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -565,7 +560,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline_h.nim#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline_h.nim#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline_h.nim#L13" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -575,7 +570,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline_h.nim#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline_h.nim#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline_h.nim#L12" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -585,7 +580,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L14" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -595,7 +590,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L15" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -605,7 +600,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L6" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -615,7 +610,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L20" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L20" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L20" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -625,7 +620,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -635,7 +630,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L19" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -645,7 +640,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L16" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L16" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L16" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -655,7 +650,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L13" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -665,7 +660,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L17" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L17" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L17" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -675,7 +670,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L12" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -685,7 +680,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L3" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L3" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L3" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -695,7 +690,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L2" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -705,7 +700,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L18" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L18" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L18" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -715,7 +710,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L5" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L5" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L5" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -725,7 +720,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L9" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -735,7 +730,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L8" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -745,7 +740,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L11" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L11" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L11" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -755,7 +750,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L10" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -765,7 +760,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -775,7 +770,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_list_h.nim#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_list_h.nim#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_list_h.nim#L6" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -787,7 +782,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_list_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_list_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_list_h.nim#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -799,7 +794,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_list_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_list_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_list_h.nim#L2" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -811,7 +806,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_types_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_types_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_types_h.nim#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -823,7 +818,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_types_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_types_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_types_h.nim#L2" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -836,7 +831,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L19" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -846,7 +841,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -856,7 +851,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L13" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L13" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -866,7 +861,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_caption_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_caption_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_caption_h.nim#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -879,7 +874,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L25" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L25" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L25" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -892,7 +887,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L28" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L28" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L28" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -905,7 +900,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_table_h.nim#L22" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_table_h.nim#L22" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_table_h.nim#L22" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -915,7 +910,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_target_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_target_h.nim#L2" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_target_h.nim#L2" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -932,7 +927,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L14" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L14" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -943,7 +938,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block.nim#L33" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block.nim#L33" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block.nim#L33" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -954,7 +949,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline.nim#L31" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline.nim#L31" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline.nim#L31" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -967,7 +962,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc.nim#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc.nim#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc.nim#L19" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -980,7 +975,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L11" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L11" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L11" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -995,7 +990,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L49" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L49" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L49" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1006,20 +1001,19 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block.nim#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block.nim#L19" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block.nim#L19" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
 <div id="fromJsonHook,PDCaption,JsonNode">
   <dt><pre><span class="Keyword">proc</span> <a href="#fromJsonHook%2CPDCaption%2CJsonNode"><span class="Identifier">fromJsonHook</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="nim_pandoc.html#PDCaption"><span class="Identifier">PDCaption</span></a><span class="Other">;</span> <span class="Identifier">o</span><span class="Other">:</span> <span class="Identifier">JsonNode</span><span class="Other">;</span> <span class="Identifier">opt</span> <span class="Other">=</span> <span class="Identifier">Joptions</span><span class="Other">(</span><span class="Other">)</span><span class="Other">)</span> {.
-    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">KeyError</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">JsonKindError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_caption.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_caption.nim#L8" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_caption.nim#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_caption.nim#L9" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -1030,7 +1024,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L46" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L46" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L46" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1041,7 +1035,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline.nim#L17" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline.nim#L17" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline.nim#L17" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1051,7 +1045,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block.nim#L28" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block.nim#L28" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block.nim#L28" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1061,7 +1055,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline.nim#L26" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline.nim#L26" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline.nim#L26" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1074,7 +1068,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L10" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L10" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1087,7 +1081,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1100,7 +1094,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L12" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L12" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1113,7 +1107,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_target_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_target_h.nim#L7" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_target_h.nim#L7" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1127,7 +1121,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L18" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L18" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L18" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1137,7 +1131,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block.nim#L23" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block.nim#L23" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block.nim#L23" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1148,7 +1142,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_block.nim#L17" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_block.nim#L17" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_block.nim#L17" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1159,7 +1153,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/#L22" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/#L22" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/#L22" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1169,7 +1163,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline.nim#L21" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline.nim#L21" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline.nim#L21" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1180,7 +1174,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_inline.nim#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_inline.nim#L15" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_inline.nim#L15" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1193,7 +1187,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_target_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_target_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_target_h.nim#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1206,7 +1200,7 @@
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/599f88e3a98cde44a11615c4fccdd2919f2af80f/nim_pandoc/pd_attr_h.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/3d0309be92d07a64894aa3a71564e128fb2c661f/nim_pandoc/pd_attr_h.nim#L8" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_attr_h.nim#L8" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
@@ -1223,7 +1217,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2023-10-29 11:52:05 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2023-11-01 00:47:24 UTC</small>
       </div>
     </div>
   </div>
