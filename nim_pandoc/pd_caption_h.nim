@@ -5,6 +5,4 @@ import pd_block_h
 
 type
   PDShortCaption* = seq[PDInline]
-  PDCaption* = object
-    t*: string
-    c*: (Option[PDShortCaption], seq[PDBlock])
+  PDCaption* = (Option[PDShortCaption], seq[PDBlock])
