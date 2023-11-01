@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/pysan3/nim_pandoc/compare/v3.0.1...v3.0.2) (2023-11-01)
+
+
+### Bug Fixes
+
+* **nim_pandoc:** change include order in nim_pandoc.nim ([c0fcac3](https://github.com/pysan3/nim_pandoc/commit/c0fcac3a608f5e395135056b2fcb5dddab7e6e58))
+
 ## [3.0.1](https://github.com/pysan3/nim_pandoc/compare/v3.0.0...v3.0.1) (2023-11-01)
 
 
