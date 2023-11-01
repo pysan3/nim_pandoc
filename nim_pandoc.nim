@@ -11,9 +11,9 @@ include nim_pandoc/pd_list_h
 include nim_pandoc/pd_table_h
 include nim_pandoc/pd_target_h
 include nim_pandoc/pd_types_h
+include nim_pandoc/pd_block_h
 include nim_pandoc/pd_inline
 include nim_pandoc/pd_caption
-include nim_pandoc/pd_block_h
 include nim_pandoc/pd_block
 
 proc add*(x, y: int): int =
