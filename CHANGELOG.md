@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.5](https://github.com/pysan3/nim_pandoc/compare/v3.0.4...v3.0.5) (2023-11-03)
+
+
+### Bug Fixes
+
+* **nim_pandoc:** change from include to import to fix type issues ([79ff333](https://github.com/pysan3/nim_pandoc/commit/79ff333773f22079532f69542413bb6bb6052b2c))
+
 ## [3.0.4](https://github.com/pysan3/nim_pandoc/compare/v3.0.3...v3.0.4) (2023-11-03)
 
 
