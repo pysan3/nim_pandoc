@@ -1,0 +1,2 @@
+nimTitle	pd_caption	nim_pandoc/pd_caption.html	module nim_pandoc/pd_caption		0
+nim	fromJsonHook	nim_pandoc/pd_caption.html#fromJsonHook,PDCaption,JsonNode	proc fromJsonHook(self: var PDCaption; o: JsonNode; opt = Joptions())		9

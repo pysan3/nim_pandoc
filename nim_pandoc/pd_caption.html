@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>nim_pandoc/pd_citation_h</title>
+<title>nim_pandoc/pd_caption</title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAUAAAAF////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAIAAABbAAAAlQAAAKIAAACbAAAAmwAAAKIAAACVAAAAWwAAAAL///8A////AP///wD///8A////AAAAABQAAADAAAAAYwAAAA3///8A////AP///wD///8AAAAADQAAAGMAAADAAAAAFP///wD///8A////AP///wAAAACdAAAAOv///wD///8A////AP///wD///8A////AP///wD///8AAAAAOgAAAJ3///8A////AP///wAAAAAnAAAAcP///wAAAAAoAAAASv///wD///8A////AP///wAAAABKAAAAKP///wAAAABwAAAAJ////wD///8AAAAAgQAAABwAAACIAAAAkAAAAJMAAACtAAAAFQAAABUAAACtAAAAkwAAAJAAAACIAAAAHAAAAIH///8A////AAAAAKQAAACrAAAAaP///wD///8AAAAARQAAANIAAADSAAAARf///wD///8AAAAAaAAAAKsAAACk////AAAAADMAAACcAAAAnQAAABj///8A////AP///wAAAAAYAAAAGP///wD///8A////AAAAABgAAACdAAAAnAAAADMAAAB1AAAAwwAAAP8AAADpAAAAsQAAAE4AAAAb////AP///wAAAAAbAAAATgAAALEAAADpAAAA/wAAAMMAAAB1AAAAtwAAAOkAAAD/AAAA/wAAAP8AAADvAAAA3gAAAN4AAADeAAAA3gAAAO8AAAD/AAAA/wAAAP8AAADpAAAAtwAAAGUAAAA/AAAA3wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADfAAAAPwAAAGX///8A////AAAAAEgAAADtAAAAvwAAAL0AAADGAAAA7wAAAO8AAADGAAAAvQAAAL8AAADtAAAASP///wD///8A////AP///wD///8AAAAAO////wD///8A////AAAAAIcAAACH////AP///wD///8AAAAAO////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A//8AAP//AAD4HwAA7/cAAN/7AAD//wAAoYUAAJ55AACf+QAAh+EAAAAAAADAAwAA4AcAAP5/AAD//wAA//8AAA=="/>
@@ -20,7 +20,7 @@
 <body>
   <div class="document" id="documentId">
     <div class="container">
-      <h1 class="title">nim_pandoc/pd_citation_h</h1>
+      <h1 class="title">nim_pandoc/pd_caption</h1>
       <div class="row">
   <div class="three columns">
     <div class="theme-select-wrapper">
@@ -52,17 +52,12 @@
 </li>
 <li>
   <details open>
-    <summary><a class="reference reference-toplevel" href="#7" id="57">Types</a></summary>
+    <summary><a class="reference reference-toplevel" href="#12" id="62">Procs</a></summary>
     <ul class="simple simple-toc-section">
-      <li><a class="reference" href="#PDCitation" title="PDCitation = object
-  citationId*: string
-  citationPrefix*: seq[PDInline]
-  citationSuffix*: seq[PDInline]
-  citationMode*: PDCitationMode
-  citationNoteNum*: int
-  citationHash*: int">PDCitation</a></li>
-<li><a class="reference" href="#PDCitationMode" title="PDCitationMode = object
-  t*: string">PDCitationMode</a></li>
+      <ul class="simple nested-toc-section">fromJsonHook
+  <li><a class="reference" href="#fromJsonHook%2CPDCaption%2CJsonNode" title="fromJsonHook(self: var PDCaption; o: JsonNode; opt = Joptions())">fromJsonHook(self: var PDCaption; o: JsonNode; opt = Joptions())</a></li>
+
+</ul>
 
     </ul>
   </details>
@@ -72,8 +67,8 @@
 
   </div>
   <div class="nine columns" id="content">
-    <a href="https://github.com/pysan3/nim_pandoc/tree/7f952dc144ab595e47d1013150add62749881296/nim_pandoc/pd_citation_h.nim#L1" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_citation_h.nim#L1" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/7f952dc144ab595e47d1013150add62749881296/nim_pandoc/pd_caption.nim#L1" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_caption.nim#L1" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
     <div id="tocRoot"></div>
     
@@ -81,40 +76,25 @@
     <div class="section" id="6">
   <h1><a class="toc-backref" href="#6">Imports</a></h1>
   <dl class="item">
-    <a class="reference external" href="pd_inline_h.html">pd_inline_h</a>
+    <a class="reference external" href="pd_block_h.html">pd_block_h</a>, <a class="reference external" href="pd_caption_h.html">pd_caption_h</a>, <a class="reference external" href="pd_block.html">pd_block</a>
   </dl>
 </div>
-<div class="section" id="7">
-  <h1><a class="toc-backref" href="#7">Types</a></h1>
+<div class="section" id="12">
+  <h1><a class="toc-backref" href="#12">Procs</a></h1>
   <dl class="item">
-    <div id="PDCitation">
-  <dt><pre><a href="pd_citation_h.html#PDCitation"><span class="Identifier">PDCitation</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">citationId</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">string</span>
-  <span class="Identifier">citationPrefix</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="pd_inline_h.html#PDInline"><span class="Identifier">PDInline</span></a><span class="Other">]</span>
-  <span class="Identifier">citationSuffix</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="pd_inline_h.html#PDInline"><span class="Identifier">PDInline</span></a><span class="Other">]</span>
-  <span class="Identifier">citationMode</span><span class="Operator">*</span><span class="Other">:</span> <a href="pd_citation_h.html#PDCitationMode"><span class="Identifier">PDCitationMode</span></a>
-  <span class="Identifier">citationNoteNum</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">int</span>
-  <span class="Identifier">citationHash</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">int</span>
-</pre></dt>
+    <div id="fromJsonHook-procs-all">
+  <div id="fromJsonHook,PDCaption,JsonNode">
+  <dt><pre><span class="Keyword">proc</span> <a href="#fromJsonHook%2CPDCaption%2CJsonNode"><span class="Identifier">fromJsonHook</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="pd_caption_h.html#PDCaption"><span class="Identifier">PDCaption</span></a><span class="Other">;</span> <span class="Identifier">o</span><span class="Other">:</span> <span class="Identifier">JsonNode</span><span class="Other">;</span> <span class="Identifier">opt</span> <span class="Other">=</span> <span class="Identifier">Joptions</span><span class="Other">(</span><span class="Other">)</span><span class="Other">)</span> {.
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
-    <a href="https://github.com/pysan3/nim_pandoc/tree/7f952dc144ab595e47d1013150add62749881296/nim_pandoc/pd_citation_h.nim#L6" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_citation_h.nim#L6" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/pysan3/nim_pandoc/tree/7f952dc144ab595e47d1013150add62749881296/nim_pandoc/pd_caption.nim#L9" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_caption.nim#L9" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
-<div id="PDCitationMode">
-  <dt><pre><a href="pd_citation_h.html#PDCitationMode"><span class="Identifier">PDCitationMode</span></a> <span class="Other">=</span> <span class="Keyword">object</span>
-  <span class="Identifier">t</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">string</span>
-</pre></dt>
-  <dd>
-    
-    
-    <a href="https://github.com/pysan3/nim_pandoc/tree/7f952dc144ab595e47d1013150add62749881296/nim_pandoc/pd_citation_h.nim#L4" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/pysan3/nim_pandoc/edit/main/nim_pandoc/pd_citation_h.nim#L4" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
-  </dd>
 </div>
 
   </dl>
