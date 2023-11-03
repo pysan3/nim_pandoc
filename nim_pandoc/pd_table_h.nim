@@ -14,22 +14,12 @@ type
     c*: Option[int]
   PDRowSpan* = int
   PDColSpan* = int
-  PDCell* = object
-    t*: string
-    c*: (PDAttr, PDAlignment, PDRowSpan, PDColSpan, seq[PDBlock])
+  PDCell* = (PDAttr, PDAlignment, PDRowSpan, PDColSpan, seq[PDBlock])
   PDColSpec* = (PDAlignment, PDColWidth)
-  PDRow* = object
-    t*: string
-    c*: (PDAttr, seq[PDCell])
-  PDTableHead* = object
-    t*: string
-    c*: (PDAttr, seq[PDRow])
-  PDTableBody* = object
-    t*: string
-    c*: (PDAttr, PDRowHeadColumns, seq[PDRow], seq[PDRow])
-  PDTableFoot* = object
-    t*: string
-    c*: (PDAttr, seq[PDRow])
+  PDRow* = (PDAttr, seq[PDCell])
+  PDTableHead* = (PDAttr, seq[PDRow])
+  PDTableBody* = (PDAttr, PDRowHeadColumns, seq[PDRow], seq[PDRow])
+  PDTableFoot* = (PDAttr, seq[PDRow])
 
 proc toJsonHook*(self: PDColWidth): JsonNode =
   if self.c.isSome():
