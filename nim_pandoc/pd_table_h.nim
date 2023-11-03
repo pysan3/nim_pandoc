@@ -1,4 +1,6 @@
-import options
+import std/options
+import std/jsonutils
+import std/json
 
 import pd_attr_h
 import pd_block_h
@@ -28,3 +30,14 @@ type
   PDTableFoot* = object
     t*: string
     c*: (PDAttr, seq[PDRow])
+
+proc toJsonHook*(self: PDColWidth): JsonNode =
+  if self.c.isSome():
+    result = %* {"t": self.t, "c": self.c.get()}
+  else:
+    result = %* {"t": self.t}
+
+proc fromJsonHook*(self: var PDColWidth, o: JsonNode, opt = Joptions()) =
+  self.t = o{"t"}.getStr()
+  if o.contains("c"):
+    self.c = some(o{"c"}.getInt())
