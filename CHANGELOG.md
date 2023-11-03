@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.2](https://github.com/pysan3/nim_pandoc/compare/v3.0.1...v3.0.2) (2023-11-01)
+
+
+### Bug Fixes
+
+* **nim_pandoc:** change include order in nim_pandoc.nim ([c0fcac3](https://github.com/pysan3/nim_pandoc/commit/c0fcac3a608f5e395135056b2fcb5dddab7e6e58))
+
+## [3.0.1](https://github.com/pysan3/nim_pandoc/compare/v3.0.0...v3.0.1) (2023-11-01)
+
+
+### Bug Fixes
+
+* **pd_caption:** fix type def of PDCaption and its parser ([3d0309b](https://github.com/pysan3/nim_pandoc/commit/3d0309be92d07a64894aa3a71564e128fb2c661f))
+
 ## [3.0.0](https://github.com/pysan3/nim_pandoc/compare/v2.1.0...v3.0.0) (2023-10-29)
 
 
