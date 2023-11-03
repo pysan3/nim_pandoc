@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/pysan3/nim_pandoc/compare/v3.0.2...v3.0.3) (2023-11-03)
+
+
+### Bug Fixes
+
+* **pd_table_h:** implement json parser for PDColWidth ([b50462c](https://github.com/pysan3/nim_pandoc/commit/b50462c2b6e6779cc090436b1a3f70b9a0408a9f))
+
 ## [3.0.2](https://github.com/pysan3/nim_pandoc/compare/v3.0.1...v3.0.2) (2023-11-01)
 
 
