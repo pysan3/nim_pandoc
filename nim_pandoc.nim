@@ -2,19 +2,19 @@
 import std/json
 import std/jsonutils
 
-include nim_pandoc/pd_attr_h
-include nim_pandoc/pd_inline_h
-include nim_pandoc/pd_caption_h
-include nim_pandoc/pd_citation_h
-include nim_pandoc/pd_format_h
-include nim_pandoc/pd_list_h
-include nim_pandoc/pd_table_h
-include nim_pandoc/pd_target_h
-include nim_pandoc/pd_types_h
-include nim_pandoc/pd_block_h
-include nim_pandoc/pd_inline
-include nim_pandoc/pd_caption
-include nim_pandoc/pd_block
+import nim_pandoc/pd_attr_h
+import nim_pandoc/pd_inline_h
+import nim_pandoc/pd_caption_h
+import nim_pandoc/pd_citation_h
+import nim_pandoc/pd_format_h
+import nim_pandoc/pd_list_h
+import nim_pandoc/pd_table_h
+import nim_pandoc/pd_target_h
+import nim_pandoc/pd_types_h
+import nim_pandoc/pd_block_h
+import nim_pandoc/pd_inline
+import nim_pandoc/pd_caption
+import nim_pandoc/pd_block
 
 proc add*(x, y: int): int =
   return x + y
