@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.4](https://github.com/pysan3/nim_pandoc/compare/v3.0.3...v3.0.4) (2023-11-03)
+
+
+### Bug Fixes
+
+* **pd_table_h:** fix wrong type definitions ([93d2e88](https://github.com/pysan3/nim_pandoc/commit/93d2e8824741f1ce7fe7650b1c9b405b1736e06b))
+
 ## [3.0.3](https://github.com/pysan3/nim_pandoc/compare/v3.0.2...v3.0.3) (2023-11-03)
 
 
