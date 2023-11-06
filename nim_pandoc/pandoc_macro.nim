@@ -1,7 +1,7 @@
-import macros
+import std/macros
 import std/strutils
 import std/sequtils
-import strformat
+import std/strformat
 
 macro refObjectJsonHook*(baseType: untyped, conds: untyped): untyped =
   var body = newSeq[string](0)
