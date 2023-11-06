@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/pysan3/nim_pandoc/compare/v3.0.5...v4.0.0) (2023-11-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* change structure to workaround circular dependencies ([#12](https://github.com/pysan3/nim_pandoc/issues/12))
+
+### Code Refactoring
+
+* change structure to workaround circular dependencies ([#12](https://github.com/pysan3/nim_pandoc/issues/12)) ([5da02d6](https://github.com/pysan3/nim_pandoc/commit/5da02d6ada55fca5095c065007dbed8651180fc6))
+
 ## [3.0.5](https://github.com/pysan3/nim_pandoc/compare/v3.0.4...v3.0.5) (2023-11-03)
 
 
