@@ -1,9 +1,0 @@
-nimTitle	pd_attr_h	nim_pandoc/pd_attr_h.html	module nim_pandoc/pd_attr_h		0
-nim	PDAttrPair	nim_pandoc/pd_attr_h.html#PDAttrPair	type PDAttrPair		4
-nim	PDAttr	nim_pandoc/pd_attr_h.html#PDAttr	type PDAttr		5
-nim	key	nim_pandoc/pd_attr_h.html#key,PDAttrPair	proc key(self: PDAttrPair): string		7
-nim	value	nim_pandoc/pd_attr_h.html#value,PDAttrPair	proc value(self: PDAttrPair): string		8
-nim	identifier	nim_pandoc/pd_attr_h.html#identifier,PDAttr	proc identifier(self: PDAttr): string		10
-nim	classes	nim_pandoc/pd_attr_h.html#classes,PDAttr	proc classes(self: PDAttr): seq[string]		11
-nim	pairs	nim_pandoc/pd_attr_h.html#pairs,PDAttr	proc pairs(self: PDAttr): seq[PDAttrPair]		12
-nim	`$`	nim_pandoc/pd_attr_h.html#$,PDAttr	proc `$`(self: PDAttr): string		14

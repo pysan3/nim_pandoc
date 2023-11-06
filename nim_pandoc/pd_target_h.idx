@@ -1,4 +1,0 @@
-nimTitle	pd_target_h	nim_pandoc/pd_target_h.html	module nim_pandoc/pd_target_h		0
-nim	PDTarget	nim_pandoc/pd_target_h.html#PDTarget	type PDTarget		2
-nim	url	nim_pandoc/pd_target_h.html#url,PDTarget	proc url(self: PDTarget): string		4
-nim	title	nim_pandoc/pd_target_h.html#title,PDTarget	proc title(self: PDTarget): string		7

@@ -1,4 +1,0 @@
-nimTitle	pd_list_h	nim_pandoc/pd_list_h.html	module nim_pandoc/pd_list_h		0
-nim	PDListNumberStyle	nim_pandoc/pd_list_h.html#PDListNumberStyle	object PDListNumberStyle		2
-nim	PDListNumberDelim	nim_pandoc/pd_list_h.html#PDListNumberDelim	object PDListNumberDelim		4
-nim	PDListAttributes	nim_pandoc/pd_list_h.html#PDListAttributes	type PDListAttributes		6

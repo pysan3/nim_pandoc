@@ -1,2 +1,0 @@
-nimTitle	pandoc_macro	nim_pandoc/pandoc_macro.html	module nim_pandoc/pandoc_macro		0
-nim	refObjectJsonHook	nim_pandoc/pandoc_macro.html#refObjectJsonHook.m,untyped,untyped	macro refObjectJsonHook(baseType: untyped; conds: untyped): untyped		6
